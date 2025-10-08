@@ -1,7 +1,7 @@
 /*
 Name: Marcus Ceradini
 Date: 10/2/2025
-Description: Prints the even numbers on one line and the odd numbers on another
+Description: 1: Prints the even numbers on one line and the odd numbers on another
 */
 
 import java.util.Scanner;
@@ -78,6 +78,9 @@ public class Even_OddSplitter{
             System.out.print(num + " ");
         }
 
+        //Spaces 2 arrays
+        System.out.println(" ");
+
         int[] odds = getOdds(userNums);
         System.out.print("Odd numbers: ");
         for (int num: odds){
@@ -88,4 +91,3 @@ public class Even_OddSplitter{
     }
 
 }
-
