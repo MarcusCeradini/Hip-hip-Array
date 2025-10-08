@@ -1,7 +1,9 @@
 /*
 Name: Marcus Ceradini
 Date: 10/2/2025
-Description: Prints the even numbers on one line and the odd numbers on another
+Description: 3 parts. 1: Prints the even numbers on one line and the odd numbers on another
+    2: Prints Shuffle playlist
+    3: Display the difference between the highest and lowest number in an array
 */
 
 import java.util.Scanner;
@@ -69,16 +71,22 @@ public class Even_OddSplitter{
         for (int i = 0; i < userNums.length; i++){
             userNums[i] = input.nextInt();
         }
-        
 
+
+        // prints out even and odd arrays without brackets
         int[] evens = getEvens(userNums);
-        System.out.println("Even numbers: " + Arrays.toString(evens));
+        System.out.print("Even numbers: ");
+        for (int num: evens){
+            System.out.print(num + " ");
+        }
 
         int[] odds = getOdds(userNums);
-        System.out.println("Odd numbers: " + Arrays.toString(odds));
+        System.out.print("Odd numbers: ");
+        for (int num: odds){
+            System.out.print(num + " ");
+        }
 
         input.close();
     }
 
 }
-
