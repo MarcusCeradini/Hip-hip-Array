@@ -1,9 +1,7 @@
 /*
 Name: Marcus Ceradini
 Date: 10/2/2025
-Description: 3 parts. 1: Prints the even numbers on one line and the odd numbers on another
-    2: Prints Shuffle playlist
-    3: Display the difference between the highest and lowest number in an array
+Description: Prints the even numbers on one line and the odd numbers on another
 */
 
 import java.util.Scanner;
@@ -90,3 +88,4 @@ public class Even_OddSplitter{
     }
 
 }
+
