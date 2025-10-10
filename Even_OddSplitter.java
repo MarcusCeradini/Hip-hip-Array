@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 public class Even_OddSplitter{
 
-    public static int[] getEvens(int[] nums){
+    public static int[] getEvens(int... nums){
 
         // counts number of even numbers
         int counter = 0;
@@ -34,7 +34,7 @@ public class Even_OddSplitter{
     }
 
 
-    public static int[] getOdds(int[] nums){
+    public static int[] getOdds(int... nums){
         // counts number of odd numbers
         int counter = 0;
         for (int i = 0; i < nums.length; i++){
@@ -91,3 +91,4 @@ public class Even_OddSplitter{
     }
 
 }
+
